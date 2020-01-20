@@ -1,0 +1,8 @@
+[build]
+  base = "frontend/"
+  publish = "frontend/dist/"
+  command = "npm run build"
+  functions = "functions"
+
+[build.environment]
+  GO_IMPORT_PATH = "github.com/darrenparkinson/rolling-days-off"
