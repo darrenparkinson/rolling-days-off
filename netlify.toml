@@ -1,7 +1,6 @@
 [build]
-  base = "frontend/"
-  publish = "dist/"
-  command = "make build"
+  publish = "frontend/dist/"
+  command = "make all"
   functions = "functions"
 
 [build.environment]
