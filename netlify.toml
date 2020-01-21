@@ -5,3 +5,8 @@
 
 [build.environment]
   GO_IMPORT_PATH = "github.com/darrenparkinson/rolling-days-off"
+
+[[redirects]]
+  from = "/api/v1/daysoff"
+  to = "/.netlify/functions/daysoff"
+
