@@ -11,6 +11,7 @@ serverless:
 	go build -o ./functions/hello $(HELLO_FILES)
 
 frontend:
+	npm install --prefix frontend
 	npm run --prefix frontend build
 
 clean:
