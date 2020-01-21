@@ -9,5 +9,5 @@
 [[redirects]]
   from = "/api/v1/daysoff"
   to = "/.netlify/functions/daysoff"
-  query = {startDate = ":startDate" endDate = ":endDate" dayOff = ":dayOff"}
+  query = {startDate = ":startDate",endDate = ":endDate",dayOff = ":dayOff"}
 
