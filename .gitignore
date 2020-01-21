@@ -1,4 +1,5 @@
 backend/*
+functions/*
 
 # Created by https://www.gitignore.io/api/go,vue,vim,node,vuejs,macos,windows,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=go,vue,vim,node,vuejs,macos,windows,visualstudiocode
