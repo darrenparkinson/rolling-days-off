@@ -10,4 +10,5 @@
   from = "/api/v1/daysoff"
   to = "/.netlify/functions/daysoff"
   query = {startDate = ":startDate",endDate = ":endDate",dayOff = ":dayOff"}
+  status = 200
 
